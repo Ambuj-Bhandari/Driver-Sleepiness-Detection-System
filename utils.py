@@ -24,4 +24,4 @@ def compute_lips(lips):
   mid1=np.mean(upper_lip,axis=0)
   mid2=np.mean(lower_lip,axis=0)
   
-  return((abs(mid1[1]-mid2[1])),upper_lip,lower_lip)
+  return((abs(mid1[1]-mid2[1])))
