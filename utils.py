@@ -1,4 +1,6 @@
 import numpy as np
+
+
 def calci(x,y):
   return(np.linalg.norm(x-y))
 
@@ -13,6 +15,7 @@ def compute_eyes(e1,e2,e3,e4,e5,e6):
     return 1
   else:
     return 0
+
 
 def compute_lips(lips):
   upper_lip= lips[50:53]
